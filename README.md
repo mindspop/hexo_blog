@@ -17,8 +17,8 @@
 
 
 ### 参考网站
-1. [http://beiyuu.com/github-pages/](http://beiyuu.com/github-pages/)
-2. [https://pages.github.com/](https://pages.github.com/)
+1. [使用 Github Pages 建独立博客](http://beiyuu.com/github-pages/)
+2. [GitHub Pages Doc](https://pages.github.com/)
 3. [http://hexo.io/](http://hexo.io/)
-4. [https://github.com/iissnan/hexo-theme-next](https://github.com/iissnan/hexo-theme-next)
-5. [https://github.com/iissnan/hexo-theme-next/wiki](https://github.com/iissnan/hexo-theme-next/wiki)
+4. [Theme intro of hexo-theme-next ](https://github.com/iissnan/hexo-theme-next)
+5. [Wiki about theme of hexo-theme-next](https://github.com/iissnan/hexo-theme-next/wiki)
