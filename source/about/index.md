@@ -8,6 +8,5 @@ type: about
 
 Mindspop#gmail.com 「# 换成 @」
 
-<a href="http://weibo.com/mindspop/" title="Mindspop's weibo" target="_blank" style="display:inline-block;margin-right:10px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-<a href="http://www.douban.com/people/mindspop/" target="_blank" title="Mindspop's douban" style="display:inline-block;margin-right:10px;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-<a href="https://github.com/mindspop" title="Mindspop's GitHub" target="_blank"><img src="http://www.github.com/favicon.ico" alt="" width="22"/></a>
+
+<a href="http://weibo.com/mindspop/" title="Mindspop's weibo" class="profile-link" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a><a href="http://www.douban.com/people/mindspop/" target="_blank" class="profile-link" title="Mindspop's douban"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a><a href="https://github.com/mindspop" title="Mindspop's GitHub" class="profile-link" target="_blank"><img src="http://www.github.com/favicon.ico" alt="" width="22"/></a>
