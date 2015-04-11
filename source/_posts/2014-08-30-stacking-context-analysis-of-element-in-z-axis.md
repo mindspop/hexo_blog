@@ -26,7 +26,7 @@ CSS 2.1 Spec 对`Stacking Context`的描述：
    * 在每个`Stacking Context`中可以嵌套其它的`Stacking Context`
    * 每个`Stacking Context`中的元素位置和同级的`Stacking Context`中元素位置的顺序是互相独立的
    * 每个`Stacking Context`是自包含的，即当父元素形成一个`Stacking Context`「此时作为后代元素的`Parent Stacking Context`」，所有内部后代元素的堆叠顺序都仅限在`Parent Stacking Context`比较
-
+<!--more-->
 ### Stacking Context 内部元素排列顺序规则
 按抵部->顶部顺序，可以抽象成七层布局：
 
