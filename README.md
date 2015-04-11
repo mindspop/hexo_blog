@@ -6,20 +6,19 @@
 ## 博客搭建过程
 博客搭建过程介绍：
 
-* 本博客是基于`Jekyll`技术搭建的 「因为需要安装一些依赖环境，安装过程碰到了许多问题，依赖环境需要一步步安装，建议参考这里的[安装步骤](http://www.interworks.com/blogs/ckaukis/2013/03/05/installing-ruby-200-rvm-and-homebrew-mac-os-x-108-mountain-lion)」
-* 主题是根据`Brume`修改的，下载的 `Brume` 主题包提供了默认配置文件，根据官方教程重新设置相关内容
-* 内容风格和配色主要参考网站 [Type is Beautiful](http://* www.typeisbeautiful.com/)
-* 内容高亮代码采取了`Hightlight.js`插件
-* 博客文章样式引用了`GitHub`内容样式（样式来自于 [fanzheng](https://gist.github.com/fanzheng/3498942) 和 [andyferra](https://gist.github.com/andyferra/2554919)），修改了代码高亮部分的样式
-* 评论模块采用了`Disquis`
-* 最后感谢 [beiyuu](http://beiyuu.com/github-pages/) 提供的搭建教程和文章标题提取插件模块
-
+* 本博客是基于`Hexo`技术搭建的 「从`Jekyll`叛逃到 Hexo，一切都是因为 Node.js」
+* 主题是来源是 [NexT.Mist](https://github.com/iissnan/hexo-theme-next)，并对主题做了点修改。在此感谢原作者 [IIssNan](http://weibo.com/iissnan)
+* 文章内容格式主要遵循原主题，仅修改了`List Item`样式
+* 评论模块采用了`Duoshuo`
+* 在搭建过程遇到的几个坑：
+  1. GitHub 错误提示邮件：The submodule `xxx` was not properly initialized with a `.gitmodules` file。 `StackOverflow`上有解决方案
+  2. 在解决问题 1 后，GitHub 还是发邮件说 build failure。后来排查原因是没有通过`Hexo deploy`方法部署站点到 GitHub。Hexo 在部署到 Github 时，需要 Deploy 生成并上传静态文件，这点和 Jekyll 有所区别，因为 Github 原生支持 Jekyll
+  3. Duoshuo 接口请求评论信息时返回错误信息。最后排查发现是在多说后台配置域名时，把 mindspop 拼成 minsdpop
 
 
 ### 参考网站
 1. [http://beiyuu.com/github-pages/](http://beiyuu.com/github-pages/)
 2. [https://pages.github.com/](https://pages.github.com/)
-3. [http://jekyllrb.com/](http://jekyllrb.com/)
-4. [http://blog.jayself.com/2014/08/20/highlight/](http://blog.jayself.com/2014/08/20/highlight/)
-5. [https://gist.github.com/fanzheng/3498942](https://gist.github.com/fanzheng/3498942)
-6. [https://gist.github.com/andyferra/2554919](https://gist.github.com/andyferra/2554919)
+3. [http://hexo.io/](http://hexo.io/)
+4. [https://github.com/iissnan/hexo-theme-next](https://github.com/iissnan/hexo-theme-next)
+5. [https://github.com/iissnan/hexo-theme-next/wiki](https://github.com/iissnan/hexo-theme-next/wiki)
