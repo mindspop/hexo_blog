@@ -64,6 +64,10 @@ plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
 - hexo-generator-baidu-sitemap
+- hexo-processor-copyassets
+
+copyassets: about
+
 ## Themes: http://hexo.io/themes/
 theme: next
 
